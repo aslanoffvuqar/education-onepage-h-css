@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px 95px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../img/home-banner.jpg.webp);
+    gap: 200px;
+    height: 1000px;
+}
+
+.navbar-img-text {
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+
+    width: 82%;
+    margin: 15px auto;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #fdc632;
+}
+
+.navbar_menu,
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    font-weight: 500;
+}
+
+.butoon-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    line-height: 2;
+    color: #002347;
+}
+
+.butoon-text-wrapper p {
+    font-size: 22px;
+}
+
+.butoon-text-wrapper h1 {
+    font-weight: 500;
+}
+
+.butoon-box {
+    display: flex;
+    gap: 20px;
+}
+
+.frist-butoon {
+    width: 160px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002347;
+    border-radius: 7px;
+    height: 50px;
+
+}
+
+.frist-butoon:hover {
+    background: none;
+    border: 1px solid #002347;
+}
+
+.frist-butoon>a:hover {
+    color: #002347;
+}
+
+.second-butoon {
+    width: 160px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdc632;
+    border-radius: 7px;
+    height: 50px;
+}
+
+.second-butoon:hover {
+    background: #002347;
+}
+
+.second-butoon>a:hover {
+    color: #fdc632;
+}
+
+.frist-butoon>a {
+    color: #fdc632;
+    padding: 10px 30px;
+}
+
+.second-butoon>a {
+    padding: 10px 30px;
+}
+
+.information_awesome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 45px;
+    margin: 130px 0px 30px;
+    color: #002347;
+    font-size: 20px;
+}
+
+.information_awesome p {
+    font-style: italic;
+    color: #888;
+    font-size: 17px;
+}
+
+.card_infomation {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card_text_wrapper {
+    width: 370px;
+    height: 185px;
+    background: #f9f9ff;
+    color: #002347;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.card_text_wrapper img {
+    width: 50px;
+}
+
+.card_text_wrapper p {
+    font-size: 17px;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_text_img {
+    height: 250px;
+    background: #f9f9ff;
+    width: 360px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desing_card_img {
+    position: relative;
+}
+
+.card_value {
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    background: #fdc632;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 500 20px 'Rubik';
+    position: absolute;
+    right: 20px;
+    top: 250px;
+}
+
+.butoon-desing {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002347;
+    color: white;
+    text-transform: uppercase;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.like_men {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.like_frist {
+    display: flex;
+}
+
+.registor {
+    width: 100%;
+    height: 600px;
+    background: #002347;
+    padding: 120px 100px;
+    display: flex;
+    gap: 90px;
+
+}
+
+.registor_text_whatc {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin: 30px 0px 0px;
+
+}
+
+.registor_whatc {
+    display: flex;
+    gap: 20px;
+}
+
+.whatch {
+    width: 160px;
+    height: 120px;
+    background: #334f6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.registor_sigin {
+    width: 350px;
+    height: 400px;
+    background: white;
+
+}
+
+.registor_sigin p {
+    color: #7b838a;
+}
+
+.registor_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    padding: 30px 50px;
+}
+
+.registor_login p {
+    border-bottom: 1px solid #7b838a;
+    line-height: 2;
+}
+
+.butoon_submit {
+    width: 300px;
+    height: 50px;
+    background: #fdc632;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+.butoon_submit:hover {
+    background: #002347;
+    color: #fdc632;
+}
+
+.traniers {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 95px;
+}
+
+.traniers_img {
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.icon_rtaniers {
+    display: flex;
+    gap: 15px;
+    color: #7b838a;
+}
+
+.traniers_img_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0px;
+}
+
+.tranier_name {
+    text-align: center;
+}
+
+.traniers_img_text p {
+    color: #7b838a;
+}
+
+.events {
+    background: #002347;
+    height: 800px;
+    padding: 1px 0px;
+    margin: 100px 0px 0px;
+
+
+}
+
+.event_img_pos {
+    position: relative;
+}
+
+.events_img_text {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 95px;
+}
+
+.events_text {
+    background: rgba(0, 35, 71, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    padding: 30px 25px;
+    color: #ffffff;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event_day_clock {
+    display: flex;
+    justify-content: space-around
+}
+
+.icon_event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon_event>div {
+    display: flex;
+    gap: 10px;
+}
+
+.event_day {
+    border-right: solid;
+    padding: 0px 17px 0px 0px;
+}
+
+.wiev_event {
+    width: 185px;
+    height: 45px;
+    background: #fdc632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002347;
+}
+
+.icon_all_event {
+    color: #fdc632;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.teacher_img_tex {
+    display: flex;
+    width: 550px;
+    box-shadow: 0px 0px 5px #888888;
+    height: 250px;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-around;
+}
+
+.teacher_img_tex img {
+    width: 130px;
+    height: 130px;
+}
+
+.teacher_img_tex p {
+    color: #7b838a;
+}
+
+.teacher {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 95px;
+}
